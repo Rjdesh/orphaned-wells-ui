@@ -67,7 +67,9 @@ const config: Config = {
     mermaid: true
   },
   themes: ['@docusaurus/theme-mermaid'],
-
+  customFields: {
+    siteCaption: 'OGGRE tool is a user-friendly platform designed to simplify the process of digitizing, reviewing, and extracting structured data from historic oil and gas regulatory records.'
+  },
 
   themeConfig: {
     // Replace with your project's social card
